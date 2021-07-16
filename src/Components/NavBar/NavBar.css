@@ -1,0 +1,17 @@
+.mainnav .logo {
+  width: 180px;
+}
+.mainnav .navbar {
+  background-color: #000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.mainnav .navbar .nav-link {
+  color: white;
+  font-weight: 700;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.mainnav .navbar .nav-link:hover {
+  color: #1DB954;
+}/*# sourceMappingURL=NavBar.css.map */

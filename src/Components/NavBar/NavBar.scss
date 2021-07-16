@@ -1,0 +1,21 @@
+$green:#1DB954;
+$black:#191414;
+.mainnav{
+    .logo{
+        width: 180px;
+    }
+    .navbar{
+        background-color: #000;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        .nav-link{
+            color:white;
+            font-weight: 700;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .nav-link:hover{
+            color:$green;
+        }
+    }
+}
