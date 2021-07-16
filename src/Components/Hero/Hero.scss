@@ -1,0 +1,45 @@
+$green:rgb(30,215,96);
+$black:#191414;
+
+.herosection{
+    min-height: 100vh;
+    background-color: rgb(41,65,171);
+    color: $green;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    .container{
+            margin-top: 20vh;
+            margin-bottom: 20vh;
+        h1{
+            font-weight: 800;
+            font-size: 190px;
+            letter-spacing: -5px;
+            
+            
+        }
+        .text-right{
+            text-align: right;
+        }
+        p{
+            font-size: 24px;
+            font-weight: 600;
+        }
+        button{
+            margin-top: 20px;
+            padding: 15px 15px;
+            background-color: $green;
+            font-weight: 800;
+            color: rgb(41,65,171);
+            border:none;
+            outline: none;
+            border-radius: 50px;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        button:hover{
+            transform: scale(1.1);
+        }
+    }
+}

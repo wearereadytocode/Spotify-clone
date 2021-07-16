@@ -1,0 +1,39 @@
+.herosection {
+  min-height: 100vh;
+  background-color: #2941ab;
+  color: #1ed760;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.herosection .container {
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+}
+.herosection .container h1 {
+  font-weight: 800;
+  font-size: 190px;
+  letter-spacing: -5px;
+}
+.herosection .container .text-right {
+  text-align: right;
+}
+.herosection .container p {
+  font-size: 24px;
+  font-weight: 600;
+}
+.herosection .container button {
+  margin-top: 20px;
+  padding: 15px 15px;
+  background-color: #1ed760;
+  font-weight: 800;
+  color: #2941ab;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.herosection .container button:hover {
+  transform: scale(1.1);
+}/*# sourceMappingURL=Hero.css.map */
