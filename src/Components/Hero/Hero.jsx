@@ -3,6 +3,8 @@ import './Hero.css'
 function Hero() {
     return (
         <div className="herosection"> 
+        <div className="sphere"></div>
+       
             <div className="container text-center">
                 <h1 className="display-1">Listening is</h1>
                 <h1 className="display-1 text-right">Everything</h1>
